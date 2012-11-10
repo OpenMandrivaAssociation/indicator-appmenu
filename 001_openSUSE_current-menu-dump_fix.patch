@@ -1,0 +1,12 @@
+diff -urN indicator-appmenu-0.1.97.old//tools/current-menu-dump.in indicator-appmenu-0.1.97/tools/current-menu-dump.in
+--- indicator-appmenu-0.1.97.old//tools/current-menu-dump.in	2010-06-02 23:15:23.000000000 +0100
++++ indicator-appmenu-0.1.97/tools/current-menu-dump.in	2011-03-21 21:07:22.650610109 +0000
+@@ -2,7 +2,7 @@
+ 
+ TMPFILE=`mktemp`
+ CURMENU="@LIBEXECDIR@/current-menu"
+-DBUSDUMP="/usr/lib/libdbusmenu/dbusmenu-dumper"
++DBUSDUMP="@LIBEXECDIR@/dbusmenu-dumper"
+ 
+ $CURMENU > $TMPFILE
+ 
