@@ -25,7 +25,7 @@ the panel. This application is a part of the Ayatana's Project.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %configure2_5x \
