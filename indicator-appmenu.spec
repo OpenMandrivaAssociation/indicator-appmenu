@@ -4,7 +4,7 @@ Version:	0.3.2
 Release:	1
 License:	GPLv3
 Group:		Graphical desktop/GNOME
-Url:		http://launchpad.net/indicator-appmenu
+Url:		https://launchpad.net/indicator-appmenu
 Source0:	%{name}-%{version}.tar.gz
 # PATCH-FIX-UPSTREAM - 001_openSUSE_current-menu-dump_fix.patch - nmarques@opensuse.org 
 #- Fixes current-menu-dump so that it picks up dbusmenu-dumper from _libexecdir and not from _libexecdir/dbusmenu.
