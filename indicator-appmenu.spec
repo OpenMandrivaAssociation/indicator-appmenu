@@ -11,6 +11,11 @@ Source0:	%{name}-%{version}.tar.gz
 # Sent upstream (lp#721491).
 Patch0:	001_openSUSE_current-menu-dump_fix.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(dbus-glib-1)
 BuildRequires:	pkgconfig(dbusmenu-gtk3-0.4)
 BuildRequires:	pkgconfig(dbusmenu-jsonloader-0.4)
